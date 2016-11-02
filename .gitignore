@@ -1,0 +1,4 @@
+.vagrant/
+jessie/.vagrant/
+jessie/disk.vdi
+
