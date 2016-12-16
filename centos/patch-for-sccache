@@ -1,0 +1,13 @@
+diff --git a/lib/config.js b/lib/config.js
+index a8a79c7..c77f77b 100644
+--- a/lib/config.js
++++ b/lib/config.js
+@@ -40,6 +40,7 @@ Config.prototype.buildArgs = function () {
+   const version_parts = version.split('.')
+ 
+   return {
++    cc_wrapper: 'sccache',
+     root_extra_deps: [ "//electron" ],
+     is_component_build: this.buildConfig !== 'Release',
+     enable_nacl: false,
+
