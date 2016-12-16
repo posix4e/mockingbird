@@ -4,7 +4,8 @@ a collection of globity goop for brave. I don't see why we can't have electron a
 ## TBD
 - [ ] [hack and slack](hack_and_slash.md) the sandbox from electron over to brave.
 - [x] jessie Vagrant 
-- [ ] jessie SRC-DEB
 - [ ] jessie RFP
-- [ ] Investigate OpenSuse/Fedora
-- [ ] Confirm Setuid's questionable safety record
+- [x] Investigate OpenSuse/Fedora
+- [ ] RPM Repos
+- [x] Confirm Setuid's questionable safety record
+- [ ] Alpha/beta user testing
