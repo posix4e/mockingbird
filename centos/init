@@ -1,6 +1,6 @@
 #!/bin/bash
 set -exu
 yum update -y
-yum install createrepo yum-utils git -y
+yum install createrepo yum-utils git wget -y
 mkdir /build
 chown -R vagrant /build

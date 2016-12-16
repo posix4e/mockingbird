@@ -1,5 +1,8 @@
 #!/bin/bash
 set -ex
+wget -O installer https://sh.rustup.rs
+bash installer -y -v
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 export MANPATH=/tmp/
 export NVM_DIR="/home/vagrant/.nvm"
@@ -10,6 +13,7 @@ nvm use stable
 cd /build
 git clone https://github.com/posix4e/browser-laptop-bootstrap
 cd browser-laptop-bootstrap
+npm install
 npm run init
 npm run build
 
