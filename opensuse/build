@@ -6,7 +6,6 @@ export NVM_DIR="/home/vagrant/.nvm"
 nvm install stable
 nvm use stable
 cd /build
-git clone https://github.com/posix4e/browser-laptop-bootstrap
-npm run init
-npm run build
+git clone https://github.com/posix4e/browser-laptop
+git clone https://github.com/posix4e/electron
 exec bash
